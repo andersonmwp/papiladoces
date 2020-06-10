@@ -1,8 +1,27 @@
 body {
     font-family: 'Montserrat', sans-serif;
+
+    background: #6800BF;
 }
 
-.container {
+.botao {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    cursor: pointer;
+    
+    display: block;
+
+    padding: 1rem 2rem;
+
+    width: 50%;
+    max-width: 700px;
+    
+    text-align: center;
+}
+
+.container-lateral {
     padding-left: 6%;
     padding-right: 6%;
 }
