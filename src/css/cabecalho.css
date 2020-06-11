@@ -1,52 +1,12 @@
 .navegacao {
-    background: #ffffff;
+    background: var(--cor-secundaria);
 }
 
 .logotipo {
     width: 100px;
-    height: 60px;
+    height: 65px;
 }
 
 .nav-link {
     letter-spacing: 2px!important;
-}
-
-.carrosel {
-    margin-top: 20px;
-}
-
-.imagem-destaque {
-    height: 400px;
-
-    object-fit: cover;
-}
-
-.botao-caixa {
-    display: flex;
-
-    align-content: center;
-
-    justify-content: center;
-}
-
-.botao-scroll {
-    margin-top: 20px;
-    
-    background-color: #f4f4f4;
-    color: #000000;
-
-    font-size: 1rem;
-    font-weight: bold;
-
-    text-decoration: none;
-}
-
-@media screen and (min-width: 1024px) {
-    .botao-caixa {
-        display: none;
-    }
-    
-    .imagem-destaque {
-        height: 500px;
-    }
 }
