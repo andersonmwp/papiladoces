@@ -2,6 +2,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 
     background: #6800BF;
+
+    padding-top: 7rem;
 }
 
 .botao {
@@ -19,9 +21,4 @@ body {
     max-width: 700px;
     
     text-align: center;
-}
-
-.container-lateral {
-    padding-left: 6%;
-    padding-right: 6%;
 }

@@ -4,8 +4,11 @@
 
 .logotipo {
     width: 100px;
-
     height: 60px;
+}
+
+.nav-link {
+    letter-spacing: 2px!important;
 }
 
 .carrosel {
@@ -13,9 +16,9 @@
 }
 
 .imagem-destaque {
-  height: 450px;
+    height: 400px;
 
-  object-fit: cover;
+    object-fit: cover;
 }
 
 .botao-caixa {
