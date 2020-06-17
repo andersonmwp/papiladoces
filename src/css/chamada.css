@@ -1,5 +1,5 @@
 .carrosel {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .imagem-destaque {
@@ -14,16 +14,22 @@
     align-content: center;
 
     justify-content: center;
-
-    
 }
 
 .botao-scroll {
-    margin-top: 20px;
+    background: var(--cor-padrão);
+
+    border: 2px solid;
+    border-radius: 50px;
+    border-color: var(--cor-secundaria);
+    
+    color: #FFFFFF;
+
+    margin-top: 35px;
 
     max-width: 300px;
 
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
 
     text-decoration: none;

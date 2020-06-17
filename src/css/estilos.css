@@ -1,11 +1,7 @@
 :root {
-    --cor-padrão: #6800BF;
+    --cor-padrão: #855FFA;
 
     --cor-secundaria: #ffffff;
-
-    --cor-botao-padrao: #ffffff;
-
-    --cor-botao-secundaria: #6800BF;
 
     --fonte-padrao: 'Montserrat', sans-serif;
 }
@@ -20,12 +16,12 @@ body {
 }
 
 .botao {
-    border: 1px solid #000000;
+    border: 2px solid #ffffff;
     border-radius: 5px;
     box-sizing: border-box;
 
-    background-color: var(--cor-secundaria);
-    color: #000000;
+    background-color: var(--cor-padrão);
+    color: #ffffff;
 
     cursor: pointer;
     

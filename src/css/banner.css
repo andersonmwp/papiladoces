@@ -1,0 +1,38 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.banner__titulo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+
+    padding-bottom: 20px;
+
+    color: var(--cor-secundaria);
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    text-decoration: none;
+}
+
+.banner__imagem {
+    width: 335px;
+    height: 335px;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__imagem {
+        width: 1000px;
+        height: 400px;
+    }
+}
