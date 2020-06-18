@@ -22,12 +22,16 @@
 .rodape__copy {
     font-size: 1rem;
     font-weight: bold;
+    
     padding-top: 20px;
 }
 
 .rodape__dev {
     font-size: .75rem;
     font-weight: bold;
+
     padding-top: 15px;
     padding-bottom: 30px;
+
+    text-decoration: none;
 }

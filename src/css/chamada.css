@@ -8,38 +8,7 @@
     object-fit: cover;
 }
 
-.botao-caixa {
-    display: flex;
-
-    align-content: center;
-
-    justify-content: center;
-}
-
-.botao-scroll {
-    background: var(--cor-padrão);
-
-    border: 2px solid;
-    border-radius: 50px;
-    border-color: var(--cor-secundaria);
-    
-    color: #FFFFFF;
-
-    margin-top: 35px;
-
-    max-width: 300px;
-
-    font-size: 1.2rem;
-    font-weight: bold;
-
-    text-decoration: none;
-}
-
 @media screen and (min-width: 1024px) {
-    .botao-caixa {
-        display: none;
-    }
-    
     .imagem-destaque {
         height: 500px;
 

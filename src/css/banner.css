@@ -1,11 +1,15 @@
 .banner {
+    margin-top: 70px;
+}
+
+.banner__caixa {
     display: flex;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
     
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -31,7 +35,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .banner {
+    .banner__caixa {
         margin-top: 80px;
     }
     .banner__imagem {
