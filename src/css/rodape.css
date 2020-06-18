@@ -1,0 +1,33 @@
+.rodape {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    background: var(--cor-secundaria);
+
+    text-align: center;
+}
+
+.rodape__logo {
+    width: 135px;
+    height: 120px;
+
+    margin-top: 100px;
+}
+
+.rodape__copy {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.rodape__dev {
+    font-size: .75rem;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
