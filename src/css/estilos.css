@@ -38,9 +38,9 @@ body {
 }
 
 .botao:hover {
-    background: var(--cor-botao-padrao);
+    background: #ffff;
 
-    color: var(--cor-botao-secundaria);
+    color: #000;
 
-    border-radius: #ffffff; 
+    border-radius: #000; 
 }
