@@ -3,12 +3,14 @@
 
     --cor-secundaria: #ffffff;
 
-    --fonte-padrao: 'Montserrat', sans-serif;
+    --fonte-titulo: 'Montserrat', sans-serif;
+
+    --fonte-texto: 'Roboto', sans-serif;
 }
 
 
 body {
-    font-family: var(--fonte-padrao);
+    font-family: var(--fonte-titulo);
 
     background: var(--cor-padrão);
 
@@ -16,18 +18,18 @@ body {
 }
 
 .botao {
-    border: 2px solid #ffffff;
+    border: 2px solid var(--cor-secundaria);
     border-radius: 5px;
     box-sizing: border-box;
 
     background-color: var(--cor-padrão);
-    color: #ffffff;
+    color: var(--cor-secundaria);
 
     cursor: pointer;
     
     display: block;
 
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
 
     width: 50%;
     max-width: 700px;
@@ -38,9 +40,9 @@ body {
 }
 
 .botao:hover {
-    background: #ffff;
+    background: var(--cor-secundaria);
 
-    color: #000;
+    color: var(--cor-padrão);
 
-    border-radius: #000; 
+    border-color: #000; 
 }

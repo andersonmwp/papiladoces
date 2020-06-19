@@ -2,7 +2,6 @@
     display: flex;
 
     align-items: center;
-
     justify-content: center;
 
     flex-direction: column;
@@ -12,11 +11,34 @@
     text-align: center;
 }
 
+.rodape__menu {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+
+    margin-top: 30px;
+}
+
+.rodape__menu-link {
+    font-size: 1rem;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    padding-bottom: 10px;
+
+    letter-spacing: 2px;
+}
+
 .rodape__logo {
     width: 135px;
     height: 120px;
 
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .rodape__copy {
@@ -29,6 +51,7 @@
 .rodape__dev {
     font-size: .75rem;
     font-weight: bold;
+    font-family: var(--fonte-texto);
 
     padding-top: 15px;
     padding-bottom: 30px;

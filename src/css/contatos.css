@@ -1,21 +1,20 @@
 .contato {
     display: flex;
 
-    flex-direction: column;
-
     align-items: center;
+
+    flex-direction: column;
 }
 
 .contato__card {
     display: flex;
 
     align-items: center;
-
     justify-content: center;
 
     flex-direction: column;
 
-    margin: 30px 0;
+    margin: 20px 0;
     max-width: 300px;
 }
 
@@ -23,24 +22,26 @@
     font-size: 1.5rem;
     font-weight: bold;
 
-    color: #fff;
+    color: var(--cor-secundaria);
 
     padding-bottom: 10px;
 }
 
 .contato__texto {
     font-size: 1.1rem;
+    font-family: var(--fonte-texto);
 
-    color: #ffff;
+    color: var(--cor-secundaria);
 
     text-align: center;
 
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
 }
 
 .contato__botao {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
+    font-family: var(--fonte-texto);
 
     width: 200px;
 
@@ -55,6 +56,7 @@
 
         align-items: flex-start;
         
-        margin-top: 70px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
