@@ -1,0 +1,54 @@
+.contatos {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contatos__card {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    margin: 30px 0;
+
+    text-align: center;
+}
+
+.contatos__titulo {
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: var(--fonte-titulo);
+
+    color: var(--cor-secundaria);
+
+    padding-bottom: 15px;
+}
+
+.contatos__texto {
+    font-size: 1.2rem;
+    font-family: var(--fonte-texto);
+
+    color: var(--cor-secundaria);
+
+    padding-bottom: 10px;
+}
+
+.contatos__botao {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .contatos__card {
+        width: 500px;
+    }
+}
