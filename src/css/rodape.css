@@ -11,6 +11,35 @@
     text-align: center;
 }
 
+.rodape__midias {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.rodape__midias-link {
+    font-size: 3rem;
+
+    padding: 0 15px;
+    margin-top: 35px;
+
+    text-decoration: none;
+
+    color: var(--cor-padrao);
+
+    transition: color 1s;
+}
+
+.rodape__midias-link:hover {
+    color: #6D50C8;
+
+    text-decoration: none;
+
+    font-size: 3.1rem;
+}
+
 .rodape__menu {
     display: flex;
 

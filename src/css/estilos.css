@@ -1,5 +1,5 @@
 :root {
-    --cor-padrão: #855FFA;
+    --cor-padrao: #855FFA;
 
     --cor-secundaria: #ffffff;
 
@@ -12,7 +12,7 @@
 body {
     font-family: var(--fonte-titulo);
 
-    background: var(--cor-padrão);
+    background: var(--cor-padrao);
 
     padding-top: 7rem;
 }
@@ -22,7 +22,7 @@ body {
     border-radius: 5px;
     box-sizing: border-box;
 
-    background-color: var(--cor-padrão);
+    background-color: var(--cor-padrao);
     color: var(--cor-secundaria);
 
     cursor: pointer;
@@ -42,7 +42,7 @@ body {
 .botao:hover {
     background: var(--cor-secundaria);
 
-    color: var(--cor-padrão);
+    color: var(--cor-padrao);
 
     border-color: #000; 
 }
