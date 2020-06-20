@@ -33,6 +33,10 @@
     padding-bottom: 15px;
 }
 
+.texto__espacamento {
+    padding-left: 20px;
+}
+
 .contatos__texto {
     font-size: 1.2rem;
     font-family: var(--fonte-texto);
@@ -42,11 +46,42 @@
     padding-bottom: 10px;
 }
 
+.contato__midia {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-end;
+}
+
+.contato__midia:hover {
+    text-decoration: none;
+}
+
+.contato__midia-link {
+    font-size: 3.6rem;
+
+    color: var(--cor-secundaria);
+
+    padding-right: 5px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    transition: color 1s;
+}
+
 .contatos__botao {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    
+    font-family: var(--fonte-texto);
+
+    width: 200px;
+
     margin-top: 10px;
+
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
