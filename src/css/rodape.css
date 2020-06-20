@@ -81,7 +81,7 @@
     padding-top: 20px;
 }
 
-.rodape__dev {
+.rodape__developer {
     font-size: .75rem;
     font-weight: bold;
     font-family: var(--fonte-texto);
@@ -92,6 +92,6 @@
     text-decoration: none;
 }
 
-.rodape__dev:hover {
+.rodape__developer:hover {
     color: #716A6A;
 }

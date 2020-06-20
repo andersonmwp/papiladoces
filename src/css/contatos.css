@@ -33,7 +33,7 @@
 
     color: var(--cor-secundaria);
 
-    text-align: center;
+    text-align: left;
 
     padding-bottom: 10px; 
 }
@@ -44,6 +44,8 @@
     font-family: var(--fonte-texto);
 
     width: 200px;
+
+    margin-top: 10px;
 
     text-decoration: none;
 }
