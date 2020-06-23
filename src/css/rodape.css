@@ -6,11 +6,13 @@
 
     flex-direction: column;
 
-    background: var(--cor-secundaria);
+    background: var(--cor-padrao);
 
-    color: var(--cor-padrao);
+    color: var(--cor-secundaria);
 
     text-align: center;
+
+    border-top: 2px solid #855FFA;
 }
 
 .rodape__midias {
@@ -29,7 +31,7 @@
 
     text-decoration: none;
 
-    color: var(--cor-padrao);
+    color: var(--cor-secundaria);
 
     transition: color 1s;
 }
@@ -57,7 +59,7 @@
     font-size: 1rem;
     font-weight: bold;
 
-    color: var(--cor-padrao);
+    color: var(--cor-secundaria);
 
     text-transform: uppercase;
     text-decoration: none;
@@ -78,7 +80,7 @@
     font-size: 1rem;
     font-weight: bold;
 
-    color: var(--cor-padrao);
+    color: var(--cor-secundaria);
     
     padding-top: 20px;
 }
@@ -88,7 +90,7 @@
     font-weight: bold;
     font-family: var(--fonte-texto);
 
-    color: var(--cor-padrao);
+    color: var(--cor-secundaria);
 
     padding-top: 15px;
     padding-bottom: 30px;
