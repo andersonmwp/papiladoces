@@ -1,7 +1,9 @@
 :root {
-    --cor-padrao: #855FFA;
+    --cor-padrao: #fff;
 
-    --cor-secundaria: #ffffff;
+    --cor-secundaria: #855FFA;
+
+    --cor-hover: #48318E;
 
     --fonte-titulo: 'Montserrat', sans-serif;
 

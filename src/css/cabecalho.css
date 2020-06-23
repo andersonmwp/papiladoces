@@ -3,10 +3,16 @@
 }
 
 .logotipo {
-    width: 100px;
-    height: 85px;
+    width: 80px;
+    height: 80px;
 }
 
 .nav-link {
     letter-spacing: 2px!important;
+
+    transition: color 1s;
+}
+
+.nav-link:hover {
+    color: var(--cor-hover)!important;
 }
