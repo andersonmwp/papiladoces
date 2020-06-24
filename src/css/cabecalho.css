@@ -22,26 +22,3 @@
 .nav-link:hover {
     color: var(--cor-hover)!important;
 }
-
-.faixa {
-    text-align: center;
-
-    background: var(--cor-secundaria);
-}
-
-.faixa-titulo {
-    font-size: 1.4rem;
-    font-weight: bold;
-
-    color: var(--cor-padrao);
-
-    padding: 30px 0;
-
-    text-transform: uppercase;
-}
-
-@media screen and (min-width: 1024px) {
-    .faixa-titulo {
-        font-size: 2rem;
-    }
-}
