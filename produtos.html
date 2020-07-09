@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Papila</title>
+    <title>Papila | Nossos Produtos</title>
     <link href="src/img/tag-navegador.jpg" rel="shortcut icon">
     <script src="https://kit.fontawesome.com/d185e35560.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
@@ -11,7 +11,8 @@
     <link href="src/css/reset.css" rel="stylesheet">
     <link href="src/css/estilos.css" rel="stylesheet">
     <link href="src/css/cabecalho.css" rel="stylesheet">
-    <link href="src/css/papila.css" rel="stylesheet">
+    <link href="src/css/chamada.css" rel="stylesheet">
+    <link href="src/css/produtos.css" rel="stylesheet">
     <link href="src/css/rodape.css" rel="stylesheet">
 </head>
     <header>
@@ -38,22 +39,44 @@
     </header>
 
     <main>
-        <!-- Página de apresentação -->
-        <section class="container sobre">
-            <figure>
-                <img class="sobre__imagem" src="src/img/teste-1.jpg" alt="foto da Camila Deus, criadora da papila">
-            </figure>
-           
-            <div class="sobre__caixa-textos">
-                <h1 class="sobre__titulo">A Papila</h1>
-
-                <p class="sobre__texto"><span class="texto__espacamento">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus felis sit amet mauris ultricies, a molestie sapien semper. Aenean mi ligula, porta sed mauris vitae, vulputate commodo odio. Nam at dolor nibh. </p>
-
-                <p class="sobre__texto"><span class="texto__espacamento">Sed</span> in varius ligula. In lobortis, lectus non pellentesque feugiat, sapien est ultricies risus, vitae fermentum tortor mauris at justo. Nulla lectus elit, cursus commodo sem ac, sagittis dictum orci. Vivamus vel eros magna. </p>
-
-                <p class="sobre__texto"><span class="texto__espacamento">Etiam </span> mattis volutpat lorem, sed tempus risus interdum quis. Cras sapien odio, mattis nec finibus in, finibus vel tortor.</p>
+      <!-- Carrossel de destaques -->
+      <section class="carrosel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#"><img src="src/img/carousel1.jpg" class="d-block w-100 imagem-destaque" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="src/img/carousel2.jpg" class="d-block w-100 imagem-destaque" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="src/img/carousel3.jpg" class="d-block w-100 imagem-destaque" alt="..."></a>
+              </div>
             </div>
-        </section>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </section>
+
+      <!-- Seção de imagens dos produtos -->
+      <section class="produtos">
+        <h1 class="produtos__titulo">Conheça nossos doces</h1>
+
+        <div class="container produtos__grid">
+            <a href="#"><img class="produtos__cartao" src="src/img/teste-1.jpg" alt="foto ilustrativa do produto"></a>
+            <a href="#"><img class="produtos__cartao" src="src/img/teste-1.jpg" alt="foto ilustrativa do produto"></a>
+            <a href="#"><img class="produtos__cartao" src="src/img/teste-1.jpg" alt="foto ilustrativa do produto"></a>
+            <a href="#"><img class="produtos__cartao" src="src/img/teste-1.jpg" alt="foto ilustrativa do produto"></a>
+            <a href="#"><img class="produtos__cartao" src="src/img/teste-1.jpg" alt="foto ilustrativa do produto"></a>
+            <a href="#"><img class="produtos__cartao" src="src/img/teste-1.jpg" alt="foto ilustrativa do produto"></a>
+        </div>
+      </section>
     </main>
 
     <footer>
