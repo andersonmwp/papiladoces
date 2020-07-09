@@ -79,6 +79,7 @@
 .rodape__copy {
     font-size: 1rem;
     font-weight: bold;
+    font-family: var(--fonte-texto);
 
     color: var(--cor-secundaria);
     

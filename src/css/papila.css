@@ -43,6 +43,7 @@
 
 .sobre__texto {
     font-size: 1.2rem;
+    font-family: var(--fonte-texto);
 
     color: var(--cor-secundaria);
 
