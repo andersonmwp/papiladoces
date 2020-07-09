@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papila | Nossos Produtos</title>
+    <link href="src/img/tag-navegador.jpg" rel="shortcut icon">
+    <script src="https://kit.fontawesome.com/d185e35560.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="src/css/reset.css" rel="stylesheet">
+    <link href="src/css/estilos.css" rel="stylesheet">
+    <link href="src/css/cabecalho.css" rel="stylesheet">
+    <link href="src/css/chamada.css" rel="stylesheet">
+    <link href="src/css/produtos.css" rel="stylesheet">
+    <link href="src/css/rodape.css" rel="stylesheet">
+</head>
+    <header>
+        <!-- Menu de navegação -->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light navegacao fixed-top">
+                <a class="navbar-brand " href="index.html"><img class="logotipo" src="src/img/logo-menu.png" alt="logo da papila doces"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav font-weight-bold text-uppercase">
+                    <a class="nav-item nav-link" href="index.html">Início <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="produtos.html">Nossos Produtos</a>
+                    <a class="nav-item nav-link" href="papila.html">A Papila</a>
+                    <a class="nav-item nav-link" href="contato.html">Contato</a>
+                    <a class="nav-item nav-link" href="https://api.whatsapp.com/send?phone=5511947151940" target="_blank">WhatsApp</a>
+                    <a class="nav-item nav-link" href="https://www.instagram.com/papiladoces/" target="_blank">Instagram</a>
+                    <a class="nav-item nav-link" href="https://web.facebook.com/Papila-100545411494724" target="_blank">Facebook</a>
+                </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+      <!-- Carrossel de destaques -->
+      <section class="carrosel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#"><img src="src/img/carousel1.jpg" class="d-block w-100 imagem-destaque" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="src/img/carousel2.jpg" class="d-block w-100 imagem-destaque" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="src/img/carousel3.jpg" class="d-block w-100 imagem-destaque" alt="..."></a>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </section>
+
+      <!-- Seção de imagens dos produtos de Páscoa -->
+      <section class="produtos">
+        <h1 class="produtos__titulo">Conheça nossos doces de Páscoa</h1>
+
+        <div class="container produtos__grid">
+            <a href="#"><img class="produtos__cartao" src="src/img/teste-1.jpg" alt="foto ilustrativa do produto"></a>
+            <a href="#"><img class="produtos__cartao" src="src/img/teste-1.jpg" alt="foto ilustrativa do produto"></a>
+            <a href="#"><img class="produtos__cartao" src="src/img/teste-1.jpg" alt="foto ilustrativa do produto"></a>
+            <a href="#"><img class="produtos__cartao" src="src/img/teste-1.jpg" alt="foto ilustrativa do produto"></a>
+            <a href="#"><img class="produtos__cartao" src="src/img/teste-1.jpg" alt="foto ilustrativa do produto"></a>
+            <a href="#"><img class="produtos__cartao" src="src/img/teste-1.jpg" alt="foto ilustrativa do produto"></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+        <!-- Rodapé da página -->
+        <section class="rodape">
+            <div class="rodape__midias">
+            <a class="fab fa-whatsapp-square rodape__midias-link"  href="https://api.whatsapp.com/send?phone=5511947151940" target="_blank"></a>
+            <a class="fab fa-instagram-square rodape__midias-link" href="https://www.instagram.com/papiladoces/" target="_blank"></a>
+            <a class="fab fa-facebook-square rodape__midias-link"  href="https://web.facebook.com/Papila-100545411494724" target="_blank"></a>
+            </div>
+
+            <div class="rodape__menu">
+            <a class="rodape__menu-link" href="index.html">Início</a>
+            <a class="rodape__menu-link" href="produtos.html">Nossos Produtos</a>
+            <a class="rodape__menu-link" href="papila.html">A Papila</a>
+            <a class="rodape__menu-link" href="contato.html">Contato</a>
+            </div>
+
+            <figure><a href="index.html"><img class="rodape__logo" src="src/img/logo-rodape.png" alt="logo da papila doces"></a></figure>
+            <a class="rodape__copy">&copy; Copyright 2019 - Papila</p>
+            <a href="https://www.linkedin.com/in/andersonmwp-front-end-developer/" class="rodape__developer" target="_blank">Desenvolvido por Anderson Moura</a>
+        </section>
+    </footer>
+
+  <!-- Scripts do Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
