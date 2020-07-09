@@ -38,6 +38,8 @@
 .banner__imagem {
     width: 335px;
     height: 335px;
+
+    border-radius: 20px;
 }
 
 @media screen and (min-width: 1024px) {
