@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: var(--fonte-texto);
+    font-family: var(--fonte-titulo);
 
     background: var(--cor-padrao);
 

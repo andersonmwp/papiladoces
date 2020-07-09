@@ -58,6 +58,7 @@
 .rodape__menu-link {
     font-size: 1rem;
     font-weight: bold;
+    font-weight: var(--fonte-titulo);
 
     color: var(--cor-secundaria);
 
