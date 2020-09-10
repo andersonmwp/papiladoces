@@ -36,10 +36,8 @@
 }
 
 .banner__imagem {
-    width: 335px;
-    height: 335px;
-
-    border-radius: 20px;
+    width: 400px;
+    height: 200px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -47,7 +45,7 @@
         margin-top: 80px;
     }
     .banner__imagem {
-        width: 1000px;
+        width: 900px;
         height: 400px;
     }
 }
