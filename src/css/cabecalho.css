@@ -15,10 +15,6 @@
     color: var(--cor-secundaria)!important;
 }
 
-.cor-link {
-
-}
-
 .nav-link:hover {
     color: var(--cor-hover)!important;
 }
