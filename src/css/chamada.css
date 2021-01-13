@@ -6,8 +6,6 @@
     height: 400px;
 
     object-fit: cover;
-
-    max-width: 1200px;
 }
 
 @media screen and (min-width: 1024px) {
